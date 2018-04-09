@@ -12,8 +12,9 @@ A starting template, examples and so on
 ./mvnw versions:display-dependency-updates
 ```   
 - Aspectj 
-  * Used for controller logging. Saves from adding too many log lines at the beginning
-
+  * Also a logging aspect that logs every method with parameters and result at the controller package
+- Spring Boot Actuator
+  * at */actuator* endpoint. Everything exposed for dev.  
 # Build
 ```
 ./mvnw spring-boot:run -pl echo
