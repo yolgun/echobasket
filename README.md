@@ -8,6 +8,8 @@ A starting template, examples and so on
 - Swagger 2
   * Creates API UI at /swagger endpoint
 - Versions-maven plugin to report old dependencies
+- Aspectj 
+  * Used for controller logging. Saves from adding too many log lines at the beginning
 ```
 ./mvnw versions:display-dependency-updates
 ```   
