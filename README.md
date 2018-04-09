@@ -5,6 +5,12 @@ A starting template, examples and so on
   * Enable Annotation Processing. At IntelliJ -> "Settings > Build > Compiler > Annotation Processors"
   * Download Lombok plugin for auto-completion at IntelliJ
   * Provides @Value, @Data, @Slf4j
+- Swagger 2
+  * Creates API UI at /swagger endpoint
+- Versions-maven plugin to report old dependencies
+```
+./mvnw versions:display-dependency-updates
+```   
 
 # Build
 ```
