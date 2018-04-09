@@ -14,7 +14,9 @@ A starting template, examples and so on
 - Aspectj 
   * Also a logging aspect that logs every method with parameters and result at the controller package
 - Spring Boot Actuator
-  * at */actuator* endpoint. Everything exposed for dev.  
+  * at */actuator* endpoint. Everything exposed for dev.
+- Spring Boot Micrometer
+  
 # Build
 ```
 ./mvnw spring-boot:run -pl echo

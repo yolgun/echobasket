@@ -58,6 +58,13 @@
       <version>${aspectj.version}</version>
     </dependency>
 
+    <!--Metrics prometheus-->
+    <dependency>
+      <groupId>io.micrometer</groupId>
+      <artifactId>micrometer-registry-prometheus</artifactId>
+      <version>${micrometer-registry.version}</version>
+    </dependency>
+
     <!--TEST-->
     <dependency>
       <groupId>org.springframework.boot</groupId>

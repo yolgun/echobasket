@@ -24,5 +24,6 @@
     <lombok.version>1.16.20</lombok.version>
     <io.springfox.springfox-swagger2>2.8.0</io.springfox.springfox-swagger2>
     <versions-maven-plugin.version>2.5</versions-maven-plugin.version>
+    <micrometer-registry.version>1.0.3</micrometer-registry.version>
   </properties>
 </project>
