@@ -18,3 +18,9 @@ A starting template, examples and so on
 ```
 ./mvnw spring-boot:run -pl echo
 ```
+or
+```
+./mvnw clean verify
+java -jar echo/target/echo-0.0.1-SNAPSHOT.jar
+```
+
