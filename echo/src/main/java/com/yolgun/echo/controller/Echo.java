@@ -11,8 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class Echo {
   @GetMapping("/{in}")
-  public static String echo(@PathVariable String in) {
-    log.info("Received {}", in);
+  public String echo(@PathVariable String in) {
     return in;
   }
 }

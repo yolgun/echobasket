@@ -33,19 +33,30 @@
       <scope>provided</scope>
     </dependency>
 
-    <!-- Include swagger for API description -->
+    <!-- Include swagger for API description and UI-->
     <dependency>
       <groupId>io.springfox</groupId>
       <artifactId>springfox-swagger2</artifactId>
       <version>${io.springfox.springfox-swagger2}</version>
     </dependency>
-    <!-- Include swagger for API description UI -->
     <dependency>
       <groupId>io.springfox</groupId>
       <artifactId>springfox-swagger-ui</artifactId>
       <version>${io.springfox.springfox-swagger2}</version>
     </dependency>
 
+    <!-- AspectJ dependencies -->
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjrt</artifactId>
+      <version>${aspectj.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjtools</artifactId>
+      <version>${aspectj.version}</version>
+    </dependency>
 
     <!--TEST-->
     <dependency>
